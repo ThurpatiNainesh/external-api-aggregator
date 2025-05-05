@@ -1,0 +1,29 @@
+{
+  "name": "external-api-aggregator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThurpatiNainesh/external-api-aggregator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThurpatiNainesh/external-api-aggregator/issues"
+  },
+  "homepage": "https://github.com/ThurpatiNainesh/external-api-aggregator#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "supertest": "^6.3.3"
+  }
+}
